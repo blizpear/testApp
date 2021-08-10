@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Countries (Shift2021Summer)</string>
+
+    <string name="hello_world">Hello world</string>
+    <string name="welcome_button">Вперед!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_country">Name of country: %1$s</string>
+    <string name="name_region">Name of Region: %1$s</string>
+    <string name="name_country_detail">Название страны:</string>
+    <string name="capital_country_detail">Столица:</string>
+    <string name="region_country_detail">Регион:</string>
+    <string name="lang_country_detail">Языки:</string>
+    <string name="population_country_detail">Население:</string>
+    <string name="area_country_detail">Площадь:</string>
+    <string name="domain_country_detail">Домены:</string>
+    <string name="image_of_flag_content_description">Image of flag</string>
+</resources>
