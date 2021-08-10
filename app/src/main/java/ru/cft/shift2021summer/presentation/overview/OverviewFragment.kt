@@ -18,7 +18,6 @@ class OverviewFragment : Fragment() {
 
     private val viewModel: OverviewViewModel by viewModels()
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -47,5 +46,4 @@ class OverviewFragment : Fragment() {
 
         return binding.root
     }
-
 }

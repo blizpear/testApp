@@ -28,7 +28,4 @@ object CountryRepositoryModule {
         @Binds
         fun bindRepository(impl: CountryRepositoryImpl): CountryRepository
     }
-
-
-
 }

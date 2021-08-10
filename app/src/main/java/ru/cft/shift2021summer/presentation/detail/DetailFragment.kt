@@ -9,8 +9,7 @@ import androidx.fragment.app.viewModels
 import dagger.hilt.android.AndroidEntryPoint
 import ru.cft.shift2021summer.databinding.DetailFragmentBinding
 import ru.cft.shift2021summer.domain.model.CountryData
-import ru.cft.shift2021summer.listToStringConcat
-import ru.cft.shift2021summer.mapToStringConcat
+
 
 @AndroidEntryPoint
 class DetailFragment : Fragment() {
@@ -38,11 +37,7 @@ class DetailFragment : Fragment() {
             binding.populationModDetail.text = it.population
             binding.areaModDetail.text = it.area?.toString() ?: "-"
             //binding.langModDetail.text = mapToStringConcat(it.languages)
-
-
         })
-
-
 
         return binding.root
     }

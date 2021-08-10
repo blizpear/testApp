@@ -2,7 +2,6 @@ package ru.cft.shift2021summer.data.network
 
 import com.squareup.moshi.JsonClass
 
-
 @JsonClass(generateAdapter = true)
 data class CountryDataNetwork(
     val name: String,

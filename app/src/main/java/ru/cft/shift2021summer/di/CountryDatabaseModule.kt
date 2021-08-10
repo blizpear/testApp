@@ -25,5 +25,4 @@ object CountryDatabaseModule {
             CountryDatabase::class.java,
             "Countries"
         ).build()
-
 }

@@ -48,5 +48,4 @@ class OverviewViewModel @Inject constructor(
     fun displayCountryDetailsComplete() {
         _navigateToSelectedCountry.value = null
     }
-
 }

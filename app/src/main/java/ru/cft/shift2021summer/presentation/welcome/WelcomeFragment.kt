@@ -8,22 +8,19 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import ru.cft.shift2021summer.databinding.FragmentWelcomeBinding
 
-
 class WelcomeFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         val binding = FragmentWelcomeBinding.inflate(inflater)
 
         binding.buttonWelcome.setOnClickListener {
             findNavController().navigate(WelcomeFragmentDirections.actionWelcomeFragmentToOverviewFragment())
         }
 
-
         return binding.root
     }
-
-
 }

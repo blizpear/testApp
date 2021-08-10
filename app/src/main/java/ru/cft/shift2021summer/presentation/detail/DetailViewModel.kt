@@ -18,5 +18,4 @@ class DetailViewModel @Inject constructor(app: Application) : AndroidViewModel(a
     fun getArgumentsToVM(data: CountryData){
         _selectedCountry.value = data
     }
-
 }
